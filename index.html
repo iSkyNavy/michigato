@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Michigato</title>
+</head>
+<body>
+    <main class="Cover">
+        <section class="Title">
+            <h1>Michigato</h1>
+        </section>
+        <section class="Header">
+            Turno del Jugador <span class="PlayerActive PlayerX">X</span>
+        </section>
+        <section class="Main">
+            <div class="MainPlayers">
+                <h2>Jugadores</h2>
+                <div class="MainPlayersContent">
+                    <label for="X">Jugador X</label>
+                    <input type="text" class="NamePlayerX" name="x" id="x">
+                    <label for="o">Jugador O</label>
+                    <input type="text" class="NamePlayerO" name="o" id="o">
+
+                    <button class="SavePlayersButton">Guardar</button>
+                </div>
+            </div>
+            <div class="MainBody">
+                <div class="Square"></div>
+                <div class="Square"></div>
+                <div class="Square"></div>
+                <div class="Square"></div>
+                <div class="Square"></div>
+                <div class="Square"></div>
+                <div class="Square"></div>
+                <div class="Square"></div>
+                <div class="Square"></div>
+            </div>
+        </section>
+        <section class="Winner hide">
+
+        </section>
+        <section class="Controlers">
+            <button class="Reset">Reset</button>
+        </section>
+    </main>
+    <script src="index.js" type="module" />
+</body>
+</html>
